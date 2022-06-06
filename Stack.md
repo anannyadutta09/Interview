@@ -27,7 +27,7 @@
    - right to left ; end to start   
 
  - we put the last element of the array and put it in stack 
- - we make the next greater element on right for teh last element = -1
+ - we make the next greater element on right for teh last element = `-1`
  - from the second last element of teh array till teh first element of teh array , we perform the following 
     -  we continue to pop elelemts from stack which are smaller than the current array element 
     -  the element on top of the stack is the next greater element for teh current array element 
@@ -41,3 +41,19 @@
 - the inner while loop runs fewer time 
 - each element is pushed and popped only once 
 - compleity is `O(n) + O(n)`
+
+
+## 3.Stock Span
+- we have an array of integers indicating the stoc price 
+- find the price of stock span 
+- in other words : if we are at an element of an array at index `i` and we find the previous greater element at `i-3`, the stick spabe for element `i` is `3`
+
+### Explanation
+- Neetcode https://www.youtube.com/watch?v=0BsPlzqksZQ&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=10 
+
+
+### Algorithms 
+ - We want to find teh next greater element on the left 
+ - We shall use a stack , but in the stack we put the `index` of element **not** the element itself
+ - We start from the left hand side 
+

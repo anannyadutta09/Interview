@@ -73,3 +73,13 @@
    - area = span * height 
  - we find the max  area
 
+
+
+## 5. Celebrity Problem 
+A celebrity is a person : 
+ - A person who does not know anyone 
+ - Wvery one knows that person 
+ 
+### Explanation 
+- https://www.youtube.com/watch?v=iHM1FPLGcsU&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=19
+### Algo 

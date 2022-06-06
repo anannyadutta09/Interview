@@ -79,7 +79,10 @@
 A celebrity is a person : 
  - A person who does not know anyone 
  - Wvery one knows that person 
- 
+ - there are 5 persons here , 3 is known to everyone but 3 knows no one . 3 is acelebrity 
+ - ![image](https://user-images.githubusercontent.com/68387132/172223460-e33bfeef-895a-47d0-8051-68304e7a39dc.png)
+ - there can be only 1 celebrity 
+ - there can be no celebrity 
 ### Explanation 
 - https://www.youtube.com/watch?v=iHM1FPLGcsU&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=19
 ### Algo 

@@ -12,6 +12,12 @@
   - if we find a cosing bracket `)`; pop all elements untill the next `(`
   - if there is no middle element between `(` and `)` then it must be a duplicate bracket 
 
-  
+## 2. Next Greater Element on Right 
+- Pepcoding : 
+
+### 
+ - or a given array find teh next greater element element on right 
+ - compelxity O(n)
+ - 
 
 

@@ -94,3 +94,42 @@ A celebrity is a person :
 
 - we continue untill there is only 1 element left 
 - last element is the cebrity 
+
+
+## 6.Min Stack 
+- A min Stack is a astack with an additional operation `getMin()`
+- teh stack will also return teh minimim element in `O(1)`
+
+### Explanation
+- Neet https://www.youtube.com/watch?v=qkLl7nAwDPo
+
+### Strategy 
+ - We take a natural stack 
+ - We also take another stack whick is suppose to contain the minimum so far
+ - we push and pop into both teh stcak **together** 
+
+ ````
+ Push 5
+ Stack        MinStack
+  5               5
+
+ Push 3
+ Stack        MinStack
+  3               3
+  5               5
+
+ Push 6
+ Stack        MinStack
+   6              3
+   3              3
+   5              5
+
+Pop 6
+ Stack        MinStack
+  
+   3              3
+   5              5
+
+
+
+ ````

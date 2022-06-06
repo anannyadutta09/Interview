@@ -63,3 +63,13 @@
 
 ### Explanation 
 - Pepcoding https://www.youtube.com/watch?v=0do2734xhnU&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=12 
+
+### Algo 
+ - for each element in the array we want to find teh `index` of 
+   - next smaller element on right 
+   - next greater element on left 
+ - next we calculate the span and area of each element by 
+   - index of next smaller  element on right - index of next smaller element on left -1
+   - area = span * height 
+ - we find the max  area
+

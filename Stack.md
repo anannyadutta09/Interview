@@ -57,3 +57,9 @@
  - We shall use a stack , but in the stack we put the `index` of element **not** the element itself
  - We start from the left hand side 
 
+
+
+## 4. Largest Area Histogram 
+
+### Explanation 
+- Pepcoding https://www.youtube.com/watch?v=0do2734xhnU&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=12 

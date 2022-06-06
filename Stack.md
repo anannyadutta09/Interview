@@ -86,3 +86,11 @@ A celebrity is a person :
 ### Explanation 
 - https://www.youtube.com/watch?v=iHM1FPLGcsU&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=19
 ### Algo 
+- We put all teh elements ( persons ) into teh stack 
+ - at the end teh stack will only have a celebrity left 
+- we pick first 2 elements 
+  - does element a know b  ; if yes `a` is not a celebrity , we push back only `b` into teh stack and ignote `a`
+  - if no then `b` is certainly not a celebrity, we put back `a`
+
+- we continue untill there is only 1 element left 
+- last element is the cebrity 
